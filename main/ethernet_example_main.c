@@ -163,7 +163,7 @@ static void http_get_task(void *pvParameters)
     struct in_addr *addr;
     int s, r;
     // char recv_buf[4096];
-    vTaskDelay(5000);
+    // vTaskDelay(5000);
     while(1) {
         // int err = getaddrinfo(WEB_SERVER, WEB_PORT, &hints, &res);
 
